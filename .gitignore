@@ -1,7 +1,28 @@
-node_modules
-dist
+# Dependencies
+node_modules/
+
+# Environment and credentials (never commit)
 .env
 .env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+target/
+
+# Logs and temp
 *.log
+*.class
+*.jar
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
 .DS_Store
-backend/target
+
+# Backend
+backend/target/
